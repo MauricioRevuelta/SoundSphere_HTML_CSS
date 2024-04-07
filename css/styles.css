@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c6ccdf;
+}
+
+.floating-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3e4d81;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.section1{
+    margin: 0;
+	justify-content: space-between;
+	height: 500px;
+    width: 100%;
+	padding: 1em;
+	box-sizing: border-box;
+	color: white;
+	background: url('../images/home1.jpeg') center center no-repeat;
+    background-size: cover;    
+}
+
+.content1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 325px;
+}
+
+.section1 h2, p, a{
+    margin: 10px;
+}
+
+.content1 a{
+    max-width: fit-content;
+    margin-left: 45%;
+    text-decoration: none; 
+    color: white; 
+    background-color: #8d2a77;
+    border-radius: 5px; 
+    font-weight: bold; 
+    padding: 20px 15px; 
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+  
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+  
+nav ul li {
+    padding: 0 1rem;
+}
+  
+nav ul li a {
+    color: white;
+    text-shadow:1px 1px 2px black;
+    text-decoration: none;
+}
+  
+nav ul li:hover {
+    background-color: #555;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+footer {
+    background-color:  #3e4d81;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer form {
+    margin-top: 1rem;
+}
+
+footer form label {
+    margin-right: 1rem;
+}
+
+footer form input[type="email"] {
+    padding: 0.5rem;
+}
+
+footer form button[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
