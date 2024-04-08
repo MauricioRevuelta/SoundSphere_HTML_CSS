@@ -4,7 +4,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #c6ccdf;
+    background-color: #dadde9;
 }
 
 .floating-header {
@@ -12,7 +12,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #3e4d81;
+    background-color: #1c223a;
     padding: 10px 20px;
     box-sizing: border-box;
     z-index: 1000;
@@ -27,7 +27,8 @@ body {
 	box-sizing: border-box;
 	color: white;
 	background: url('../images/home1.jpeg') center center no-repeat;
-    background-size: cover;    
+    background-size: cover;   
+    margin-bottom: 10px; 
 }
 
 .content1 {
@@ -90,8 +91,9 @@ main {
 }
 
 footer {
-    background-color:  #3e4d81;
+    background-color: #49568d;
     color: white;
+    border-top: 10px solid #93448b;
     padding: 1rem;
     text-align: center;
 }
